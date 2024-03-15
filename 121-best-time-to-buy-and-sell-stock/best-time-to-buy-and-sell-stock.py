@@ -1,5 +1,5 @@
-class Solution(object):
-    def maxProfit(self, array):
+class Solution:
+    def maxProfit(self, array: List[int]) -> int:
         if len(array) == 1:
             return 0
         else:
@@ -16,4 +16,4 @@ class Solution(object):
                 return max(profit_keeper)
             else:
                 return 0
-        
+                
